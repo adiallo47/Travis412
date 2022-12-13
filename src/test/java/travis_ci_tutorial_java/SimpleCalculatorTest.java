@@ -9,15 +9,15 @@ public class SimpleCalculatorTest {
 	@Test
 	public void testAdd() {
 		SimpleCalculator calc = new SimpleCalculator();
-		assertEquals(calc.add(3, 1), 4);
-	}
+		assertEquals(calc.add(3, 1), 1);
+	} 
 	public void testSubtract() {
 		SimpleCalculator calc = new SimpleCalculator();
-		assertEquals(calc.subtract(3, 1), 2);
+		assertEquals(calc.subtract(3, 1), 4);
 	}
 	public void testMultiply() {
 		SimpleCalculator calc = new SimpleCalculator();
-		assertEquals(calc.multiply(3, 1), 3);
+		assertEquals(calc.multiply(3, 1), 4);
 	}
 	public void testDivide() {
 		SimpleCalculator calc = new SimpleCalculator();
